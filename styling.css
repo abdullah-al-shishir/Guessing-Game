@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(128, 102, 207);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    padding: 10px;
+    width: 370px;
+    border-radius: 9px;
+}
+h1{
+    color: rgb(44, 42, 42);
+    font-weight: bolder;
+}
+.card-description{
+    padding: 0 0 15px 15px;
+    color: rgb(119, 116, 116);
+}
+input{
+    width: 75%;
+    height: 40px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    border-color:rgb(155, 130, 238);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+input:focus {
+    box-shadow: 2px 2px 2px 0 violet; /* Equivalent to focus:ring-2 focus:ring-purple-500 */
+}
+button{
+    width: 76.5%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 13px;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out; /* Equivalent to transition duration-300 ease-in-out */
+    transform: scale(1);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    
+}
+.button:hover{
+    transform: scale(1.05); /* Equivalent to hover:scale-105 */
+}
+.button1 button{
+    background-color: rgb(146, 60, 199);
+}
+.button1 button:hover{
+    background-color: rgb(100, 33, 142);
+    cursor: pointer;
+}
+.button2 button{
+    background-color: rgb(167, 162, 170);
+    color: black;
+    margin-bottom: 30px;
+}
+.button2 button:hover{
+    background-color: rgb(111, 104, 116);
+    cursor: pointer;
+}
